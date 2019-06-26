@@ -3,7 +3,7 @@ import RPi.GPIO as GPIO
 import json
 
 THINGSBOARD_HOST = 'demo.thingsboard.io'
-ACCESS_TOKEN = 'IIMoTSNkAoQaTwBvxHPO'
+ACCESS_TOKEN = 'examRPi'
 
 # We assume that all GPIOs are LOW
 gpio_state = {7: False, 11: False, 12: False, 13: False, 15: False, 16: False, 18: False, 22: False, 29: False,
